@@ -1,0 +1,67 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(193, 119, 236);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(54, 49, 83);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(101, 22, 146);
+    height: 600px;
+    width: 600px;
+
+}
+
+.pixel{
+    background-color: rgb(193, 119, 236);
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: rgb(207, 169, 230);
+}
+
+.submit,
+.background-submit{
+    font-size: 13px;
+    padding: 7px;
+}
+
+.color-container{
+    display: flex;
+    gap: 20px;
+}
+
+.color-subcontainer{
+    display: flex;
+    gap: 10px;
+}
+
+.sketch-color,
+.background-color{
+    display: flex;
+    align-content: stretch;
+    height: 40px;
+    padding: 0px;
+}
